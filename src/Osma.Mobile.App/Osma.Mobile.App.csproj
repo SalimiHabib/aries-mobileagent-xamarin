@@ -5,6 +5,8 @@
     <Configurations>Debug;Release;Gorilla</Configurations>
     <AssemblyName>Osma.Mobile.App</AssemblyName>
     <RootNamespace>Osma.Mobile.App</RootNamespace>
+    <AssemblyVersion>1.0.20258.1615</AssemblyVersion>
+    <FileVersion>1.0.20258.1615</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
@@ -33,7 +35,6 @@
     <PackageReference Include="West.Extensions.XamarinHosting" Version="3.0.0-preview1" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
-    <PackageReference Include="Hyperledger.Aries.Routing.Edge" Version="1.2.9" />
   </ItemGroup>
 
   <ItemGroup>
@@ -74,6 +75,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Osma.Mobile.App.Services\Osma.Mobile.App.Services.csproj" />
+    <ProjectReference Include="G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing.Edge\Hyperledger.Aries.Routing.Edge.csproj" />
+    <ProjectReference Include="G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing\Hyperledger.Aries.Routing.csproj" />
+    <ProjectReference Include="G:\Users\Administrator\Videos\src\Hyperledger.Aries\Hyperledger.Aries.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\CreateInvitation\CreateInvitationPage.xaml.cs">

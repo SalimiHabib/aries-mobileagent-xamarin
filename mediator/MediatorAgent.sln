@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorAgent", "MediatorAgent.csproj", "{AD6877C8-288E-4684-8D3B-F6D75CBA6F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "indy", "indy", "{AB04791F-AE07-4BC0-867F-F5BD0EBE1432}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries", "G:\Users\Administrator\Videos\src\Hyperledger.Aries\Hyperledger.Aries.csproj", "{3EE99416-1443-4D28-9639-582195F24D38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.AspNetCore", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.AspNetCore\Hyperledger.Aries.AspNetCore.csproj", "{C65BCBCF-EB94-49A0-9400-5936E24F5963}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.AspNetCore.Contracts", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.AspNetCore.Contracts\Hyperledger.Aries.AspNetCore.Contracts.csproj", "{941D5447-8DAA-429A-9648-C2D09B4714A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.Payments.SovrinToken", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.Payments.SovrinToken\Hyperledger.Aries.Payments.SovrinToken.csproj", "{BE2180D8-3B73-457A-A15C-04387487C08A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.Routing", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing\Hyperledger.Aries.Routing.csproj", "{BF61D6B9-71A5-436A-8532-F03D8BF883B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.Routing.Edge", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing.Edge\Hyperledger.Aries.Routing.Edge.csproj", "{E32997BA-50F3-4D60-A39F-7FEA5C39591A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.Routing.Mediator", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing.Mediator\Hyperledger.Aries.Routing.Mediator.csproj", "{F92B2F27-8372-48E3-B1D2-086BEBC414D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperledger.Aries.TestHarness", "G:\Users\Administrator\Videos\src\Hyperledger.Aries.TestHarness\Hyperledger.Aries.TestHarness.csproj", "{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD6877C8-288E-4684-8D3B-F6D75CBA6F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6877C8-288E-4684-8D3B-F6D75CBA6F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6877C8-288E-4684-8D3B-F6D75CBA6F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6877C8-288E-4684-8D3B-F6D75CBA6F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE99416-1443-4D28-9639-582195F24D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE99416-1443-4D28-9639-582195F24D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE99416-1443-4D28-9639-582195F24D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE99416-1443-4D28-9639-582195F24D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65BCBCF-EB94-49A0-9400-5936E24F5963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65BCBCF-EB94-49A0-9400-5936E24F5963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65BCBCF-EB94-49A0-9400-5936E24F5963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65BCBCF-EB94-49A0-9400-5936E24F5963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941D5447-8DAA-429A-9648-C2D09B4714A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941D5447-8DAA-429A-9648-C2D09B4714A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941D5447-8DAA-429A-9648-C2D09B4714A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941D5447-8DAA-429A-9648-C2D09B4714A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2180D8-3B73-457A-A15C-04387487C08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2180D8-3B73-457A-A15C-04387487C08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2180D8-3B73-457A-A15C-04387487C08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2180D8-3B73-457A-A15C-04387487C08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF61D6B9-71A5-436A-8532-F03D8BF883B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF61D6B9-71A5-436A-8532-F03D8BF883B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF61D6B9-71A5-436A-8532-F03D8BF883B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF61D6B9-71A5-436A-8532-F03D8BF883B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32997BA-50F3-4D60-A39F-7FEA5C39591A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32997BA-50F3-4D60-A39F-7FEA5C39591A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32997BA-50F3-4D60-A39F-7FEA5C39591A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32997BA-50F3-4D60-A39F-7FEA5C39591A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92B2F27-8372-48E3-B1D2-086BEBC414D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92B2F27-8372-48E3-B1D2-086BEBC414D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92B2F27-8372-48E3-B1D2-086BEBC414D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92B2F27-8372-48E3-B1D2-086BEBC414D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EE99416-1443-4D28-9639-582195F24D38} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{C65BCBCF-EB94-49A0-9400-5936E24F5963} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{941D5447-8DAA-429A-9648-C2D09B4714A8} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{BE2180D8-3B73-457A-A15C-04387487C08A} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{BF61D6B9-71A5-436A-8532-F03D8BF883B1} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{E32997BA-50F3-4D60-A39F-7FEA5C39591A} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{F92B2F27-8372-48E3-B1D2-086BEBC414D4} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+		{A67B2FB2-F9A4-4FFC-959F-A0E4AD25215E} = {AB04791F-AE07-4BC0-867F-F5BD0EBE1432}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6936A7F1-96E4-4E13-B50C-549AF6F1D87E}
+	EndGlobalSection
+EndGlobal

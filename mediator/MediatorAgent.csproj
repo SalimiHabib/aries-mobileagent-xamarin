@@ -3,10 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <NoWarn>CS1998</NoWarn>
+    <AssemblyVersion>1.0.20248.1256</AssemblyVersion>
+    <FileVersion>1.0.20248.1256</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Hyperledger.Aries.Routing.Mediator" Version="1.2.9" />
+    <ProjectReference Include="G:\Users\Administrator\Videos\src\Hyperledger.Aries.Routing.Mediator\Hyperledger.Aries.Routing.Mediator.csproj" />
   </ItemGroup>
 
 </Project>

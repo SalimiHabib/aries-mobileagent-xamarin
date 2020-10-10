@@ -5,6 +5,8 @@
     <Configurations>Debug;Release;Gorilla</Configurations>
     <AssemblyName>Osma.Mobile.App.Services</AssemblyName>
     <RootNamespace>Osma.Mobile.App.Services</RootNamespace>
+    <AssemblyVersion>1.0.20258.1615</AssemblyVersion>
+    <FileVersion>1.0.20258.1615</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />

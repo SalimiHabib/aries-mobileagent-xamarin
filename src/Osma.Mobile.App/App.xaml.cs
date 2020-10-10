@@ -50,7 +50,7 @@ namespace Osma.Mobile.App
                 AutoReset = true,
                 Interval = TimeSpan.FromSeconds(10).TotalMilliseconds
             };
-            timer.Elapsed += Timer_Elapsed;
+           // timer.Elapsed += Timer_Elapsed;
         }
 
         public App(IHost host) : this() => Host = host;
@@ -62,7 +62,7 @@ namespace Osma.Mobile.App
                     services.AddAriesFramework(builder => builder.RegisterEdgeAgent(
                         options: options =>
                         {
-                            options.EndpointUri = "http://localhost:5000";
+                            options.EndpointUri = "http://f6a90d4ee192.ngrok.io";
 
                             options.WalletConfiguration.StorageConfiguration =
                                 new WalletConfiguration.WalletStorageConfiguration
@@ -84,7 +84,8 @@ namespace Osma.Mobile.App
                             //   sovrin-staging
                             //   sovrin-builder
                             //   bcovrin-test
-                            options.PoolName = "sovrin-staging";
+                            //   local-test
+                            options.PoolName = "local-test";
                         },
                         delayProvisioning: true));
 
